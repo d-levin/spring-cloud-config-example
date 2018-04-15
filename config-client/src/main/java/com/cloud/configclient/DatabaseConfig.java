@@ -1,9 +1,13 @@
 package com.cloud.configclient;
 
+import lombok.Getter;
+import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@Getter
+@ToString
 public class DatabaseConfig {
 
     @Value("${database.url}")
@@ -15,24 +19,4 @@ public class DatabaseConfig {
     @Value("${database.password}")
     private String password;
 
-    public String getUrl() {
-        return url;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    @Override
-    public String toString() {
-        return "DatabaseConfiguration{" +
-                "url='" + url + '\'' +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
 }
