@@ -24,4 +24,7 @@
 /nbdist/
 /.nb-gradle/
 
+# Platform
+.DS_Store
+
 /config-repo/
