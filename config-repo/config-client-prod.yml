@@ -1,0 +1,4 @@
+database:
+  url: database-url-prod
+  username: database-username-prod
+  password: database-password-prod

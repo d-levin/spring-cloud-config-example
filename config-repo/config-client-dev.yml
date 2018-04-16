@@ -1,0 +1,4 @@
+database:
+  url: database-url-dev
+  username: database-username-dev
+  password: database-password-dev
