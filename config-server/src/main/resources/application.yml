@@ -3,6 +3,6 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/dennis/Code/java-spring-cloud/config-repo
+          uri: file:///Users/dennis/Code/java-spring-cloud-config-example/config-repo
 server:
   port: 8888
